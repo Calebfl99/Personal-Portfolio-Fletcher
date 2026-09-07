@@ -1,12 +1,8 @@
 h1{
  color: blue;
- size: 20px;
-}
-
-Home-Page{
-    color: rgb(98, 63, 14);
 }
 
 ul{
     align-content: center;
+    color: blueviolet;
 }
