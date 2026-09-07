@@ -4,5 +4,9 @@ h1{
 }
 
 Home-Page{
-    color: brown;
+    color: rgb(98, 63, 14);
+}
+
+ul{
+    align-content: center;
 }
