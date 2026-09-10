@@ -1,8 +1,31 @@
-h1{
+body {
+font-family: 'Comic Sans MS', 'Comic Sans', 'Arial', 'sans-serif', cursive;
+}
+
+logo1{
  color: blue;
+ text-transform: capitalize;
+ text-align: right;
 }
 
 ul{
-    align-content: center;
-    color: blueviolet;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul li a{
+    display: block;
+    color: aquamarine;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+ul li a.active{
+    background-color: green;
 }
