@@ -1,0 +1,45 @@
+.logo{
+ color: blue;
+ text-transform: capitalize;
+ text-align: right;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    top: 0%;
+    /* BRO THIS ONE AT NEEDS SO MANY 0s */
+    right: 0.00000001%;
+    width: 100%;
+}
+
+.home-page{
+    color: darkorange;
+}
+
+.project-page{
+    color: rgb(236, 169, 14);
+}
+
+.skill-page{
+    color: antiquewhite;
+}
+
+.contact-page{
+    color: goldenrod;
+}
+
+ul li a{
+    display: block;
+    color: white;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+ul li a.active{
+    background-color: green;
+}
