@@ -10,11 +10,41 @@ ul{
     padding: 0;
     background-color: black;
     display: flex;
-    position: fixed;
     top: 0%;
-    /* BRO THIS ONE AT NEEDS SO MANY 0s */
-    right: 0.00000001%;
-    width: 100%;
+}
+
+.hiddens li a{
+    display: block;
+    color: white;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+.hidden1{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    top: 0%;
+    list-style-type: none;
+}
+.hidden2{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    top: 0%;
+    list-style-type: none;
+}
+.hidden3{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.hidden4{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 .home-page{

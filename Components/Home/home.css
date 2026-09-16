@@ -1,4 +1,4 @@
-h2{
+h1{
     text-align: center;
     
 }
@@ -6,3 +6,8 @@ h2{
 p{
     text-align: center;
 }
+
+body{
+    background-color: darkgreen;
+}
+
